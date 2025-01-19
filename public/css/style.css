@@ -1,0 +1,39 @@
+:root {}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.index-background {
+    background-image: url(../assests/index.jpg);
+    background-size: cover;   ;
+    background-position: center;
+}
+
+#door {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+#door-link {
+    position: absolute;
+    top: 73%;
+    left: 44%;
+    transform: translate(-50%, -50%);
+}
+
+#door-link:hover #door {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(255, 255, 0, 0.8); /* Adds a glowing effect */
+}
+
+.inside-background {
+    background-image: url(../assests/table.jpg);
+    background-size:cover;
+    background-position: center;
+}
